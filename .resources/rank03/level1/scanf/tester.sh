@@ -38,9 +38,9 @@ extern int ft_scanf(const char *, ...);
 
 int main(void)
 {
-    int num;
-    char str[100];
-    char c;
+    int num = -1;
+    char str[100] = {0};
+    char c = '?';
     
     // Test: %d %s %c
     int result = ft_scanf("%d %s %c", &num, str, &c);
